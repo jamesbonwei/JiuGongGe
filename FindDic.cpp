@@ -26,7 +26,7 @@ vector<string> JiuGongInput(string InputString){
 2->a->ago;able
 22->ab->able,abort
 22->ac->accomplish
-27->at->atul
+28->at->atul
 其他输入组合均无输出单词
 
 */
@@ -154,7 +154,7 @@ void main()
 
 	cout<<"test3:for two characters in the dictionary:"<<endl;
 	JiuGongInput("22");
-	JiuGongInput("27");
+	JiuGongInput("28");
 
 
 	cout<<"test4:for two/ three characters not the dictionary:"<<endl;
@@ -163,6 +163,5 @@ void main()
 
 	cout<<"test5: long characters not the dictionary:"<<endl;
 	JiuGongInput("234567823456789");
-
 
 }
